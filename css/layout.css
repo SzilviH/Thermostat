@@ -14,7 +14,7 @@ h1 {
 body {
 
   text-align: center;
-  vertical_align: center;
+  vertical-align: center;
   font-family: Helvetica;
   background-image: radial-gradient(circle, #fbd2e0, #f1d7ef, #e3ddf9, #d5e3fc, #cbe8fa);
   background-size: cover;
