@@ -25,13 +25,13 @@ $(document).ready(function(){
 
   $('#powersaving-on').on('click', function() {
     thermostat.powerSavingOn();
-    $('#powersaving-status').text('on');
+    $('#powersaving-status').text('ON');
     updateTemperature();
   });
 
   $('#powersaving-off').on('click', function() {
     thermostat.powerSavingOff();
-    $('#powersaving-status').text('off');
+    $('#powersaving-status').text('OFF');
     updateTemperature();
   });
 });
