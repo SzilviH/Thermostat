@@ -44,5 +44,5 @@ $(document).ready(function(){
       $('#current-conditions').text(result.weather[0].main)
       $('#degrees').text(' °C')
       });
-  })
+  });
 });
