@@ -20,9 +20,14 @@
         <button id="powersaving-on">PS on</button>
         <button id="powersaving-off">PS off</button>
       </p>
-      <button id="submitButton">Get Weather</button>
+
+      <form id="select-city">
+        <input type="text" id="city" name="city">
+        <input type="submit" id="submitButton" value="Get Weather">
+      </form>
       <h2>
         <span id="current-weather"></span><span id="degrees"></span><br>
+        <div id="current-conditions"></div>
         <div id="current-city"></div>
       </h2>
     </section>
