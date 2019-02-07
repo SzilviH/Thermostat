@@ -42,6 +42,18 @@
         thermostat.reset();
         updateTemperature();
       });
+
+      $('#powersaving-on').on('click', function() {
+        thermostat.powerSavingOn();
+        $('#powersaving-status').text('on');
+        updateTemperature();
+      });
+
+      $('#powersaving-off').on('click', function() {
+        thermostat.powerSavingOff();
+        $('#powersaving-status').text('off');
+        updateTemperature();
+      });
     });
     </script>
   </body>
